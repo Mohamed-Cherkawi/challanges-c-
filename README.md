@@ -1,2 +1,2 @@
 # challanges-c-
-challenges for variables 
+challenges for variables and conditions
