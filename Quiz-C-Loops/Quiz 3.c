@@ -2,7 +2,7 @@
 
 int main() {
 	int num , index;
-	printf("Enter a number greater than 1 to see if its primal or not \n");
+	printf("Enter a number to see if its primal or not :");
 		scanf("%d",&num);
 		
 		if(num == 1){
@@ -11,7 +11,7 @@ int main() {
 				}
 			for(index = 2 ; index < num ; index++){
 				
-		if(num%index == 0){
+		if(num% index == 0){
 				printf("This number is not prime");
 				return;
 				}
