@@ -5,7 +5,7 @@ dans la liste  */
 
 int main() {
 	int num, i;
-int  list[7]= { 1, 2, 3, 4, 5, 6, 7 };  
+int  list[7]= { 70, 10, 3, 1, 6577, 25, 7 };  
 
 
 printf("Enter a number to check if it's in your List or not : ");
@@ -23,7 +23,8 @@ printf("Enter a number to check if it's in your List or not : ");
 		
 		}
 		
-			if (num != list[i]) // Alors si la boucle n'a pas trouver le numero entrée compatible avec aucun élement . donc y'a pas. 
+			if (num != list[i]) /* Cette condition vérifie si le nombre egale pas à un élement de la liste , si vraie 
+									returne que le nombre n'est pas dans la liste	*/	  
 		{
 			
 		printf("  Number (%d) is not found from your List .", num);
